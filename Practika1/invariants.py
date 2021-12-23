@@ -76,9 +76,9 @@ if __name__ == '__main__':
     M = one.moment()
     print(f"Инвариантные моменты для первого треугольника:\nM1: {M[0]} \nM2: {M[1]} \nM3: {M[2]}\n")
 
-    # two = Triangle([-1,-1,-3], [1,4,1])
+    two = Triangle([-1,-1,-3], [1,4,1])
     # two = Triangle([-1,-1,-3], [-1,-4,-1])
-    two = Triangle([2,2,9], [-1,-4,-1])
+    # two = Triangle([2,2,9], [-1,-4,-1])
     two.prints()
     two.draw()
     M_two = two.moment()
